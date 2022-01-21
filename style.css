@@ -1,0 +1,92 @@
+body {
+    background-color: #3ddcfc;
+    font-family: 'Mulish', sans-serif;
+}
+
+header {
+    padding: 2em;
+}
+
+header h1 {
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 4em;
+    text-shadow: 2px 2px #f1a10b;
+}
+
+main {
+    width: 50%;
+    margin: auto;
+}
+
+#input-box {
+    background-color: white;
+    text-align: center;
+    padding: 2em;
+    border-radius: 10rem;
+    width: 60%;
+    margin: 0 auto 2em auto;
+}
+
+#input-box input {
+    width: 50%;
+    font-size: 20px;
+    border-radius: 10rem;
+    padding: 0.5rem 1rem;
+}
+
+button {
+    border-radius: 10rem;
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+    background-color: #3ddcfc;
+    color: white;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+button:active {
+    background-color: grey
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+ul {
+    list-style: none;
+    list-style-position: inside;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+li {
+    background-color: white;
+    padding: 1rem 2em;
+    border-radius: 2rem;
+    margin: 1rem auto;
+    transition: all 0.5s ease;
+    text-transform: uppercase;
+}
+
+li>button {
+    padding: 0 1rem;
+    float: right;
+    background-color: rgb(231, 89, 89);
+    font-size: 20px;
+}
+
+.done {
+    background-color: #9bf58f;
+    color: white;
+    font-weight: 700;
+}
+
+.delete {
+    display: none;
+}
